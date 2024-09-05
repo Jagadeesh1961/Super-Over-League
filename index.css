@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
+.super-over-bg-container {
+  background-color: #0f172a;
+  height: 100vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.teams-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.heading {
+  color: white;
+  font-family: "Roboto";
+  font-size: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 36px;
+  }
+}
+
+.team-logo {
+  width: 130px;
+}
+
+@media screen and (min-width: 768px) {
+  .team-logo {
+    width: 200px;
+  }
+}
